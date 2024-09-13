@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NELLY'S TOOLS-safe with us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+        <div class="container">
+          <a class="navbar-brand text-uppercase" href="#">nelly's guard</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="signin.html">Sign in</a></li>
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#faq">FAQs</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <main>
+
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="somepics/earth-140672.jpg" class="d-block w-100 c-img" alt="">
+                <div class="carousel-caption top-0 mt-4 ">
+                    <h1 class="display-1 fw-bolder mt-5m text-capitalize">Get secured.</h1>
+                    <p class="fs-3 text-uppercase  ">With nelly's guard.</p>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5 " data-bs-toggle="modal" data-bs-target="#modalSignup">GET STARTED</button>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="somepics/man-4134779.jpg" class="d-block w-100  c-img" alt="">
+                <div class="carousel-caption top-0 mt-4 ">
+                    <h1 class="display-1 fw-bolder mt-5m text-capitalize">Eperienced bodyguards.</h1>
+                    <p class="fs-3 text-uppercase  ">keep you out of harm.</p>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5 " data-bs-toggle="modal" data-bs-target="#hireus">HIRE US</button>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="somepics/weapons-3417507.jpg" class="d-block w-100 c-img" alt="">
+                <div class="carousel-caption top-0 mt-4 ">
+                    <h1 class="display-1 fw-bolder mt-5m  text-capitalize">Latest weapons.</h1>
+                    <p class="fs-3  text-uppercase  ">increases your worth.</p>
+                    <button class="btn btn-primary px-4 py-2 fs-5  mt-5" data-bs-toggle="modal" data-bs-target="#totheshops">GET SOME</button>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          <div class="modal fade   " tabindex="-1"  id="modalSignup">
+            <div class="modal-dialog" >
+              <div class="modal-content ">
+                <div class="modal-header">
+                  <h1 class="modal-title">Sign up here</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+          
+                <div class="modal-body p-5 pt-0">
+                  <form  action="registration.php" method="POST">
+                    <div class="row ">
+                        <div class="col-sm-6">
+                            <div class="form-floating mt-3 mb-2">
+                                <input type="email" name="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                              </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating mt-3 mb-3">
+                                <input type="password" name="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                              </div>
+                             
+                        </div>
+                        <button name="submit" class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+                        <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small><a href="signin.html" class="text-decoration-none ">sign in here</a>
+                        
+                    </div>
+  
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade   " tabindex="-1"  id="hireus">
+            <div class="modal-dialog" >
+              <div class="modal-content ">
+                <div class="modal-header">
+                  <h1 class="modal-title">WELCOME! fill to continue..</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+          
+                <div class="modal-body p-5 pt-0">
+                  <form action="hireus.php" method="POST" class="">
+                    <div class="row ">
+                        <div class="col-sm-6">
+                            <div class="form-floating mt-3 mb-2">
+                                <input type="text" class="form-control rounded-3" name="fullname" id="floatingInput" placeholder="Enter your full name" required>
+                                <label for="floatingInput">Full name</label>
+                              </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating mt-3 mb-3">
+                                <input type="text" class="form-control rounded-3" name="continent" id="floatingPassword" placeholder="continent" required>
+                                <label for="floatingPassword">Continent</label>
+                              </div>
+                             
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-floating mt-3 mb-2">
+                              <input type="text" class="form-control rounded-3" name="nationality" id="floatingInput" placeholder="Nationality" required>
+                              <label for="floatingInput">Nationality</label>
+                            </div>
+                         </div>
+                        <div class="col-sm-6">
+                           <div class="form-floating mt-3 mb-3">
+                               <input type="email" class="form-control rounded-3" name="email" id="floatingemail" placeholder="Email" required>
+                               <label for="floatingemail">Email</label>
+                          </div>
+                          
+                         </div>
+                        <button name="submit" class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Continue..</button>
+                          <small class="text-body-secondary">By clicking Continue, you agree to the terms of use.</small>
+                    </div>
+                    
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <section class="overview">
+            <div class="container h-100 d-flex align-items-center ">
+                <div class="row w-100 text-center fs-4">
+                    <div class="col-xl-4">
+                        <div>  
+                            <i class="bi bi-airplane-fill"></i>
+                            protecting you along world's trips
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div>
+                            securing your properties
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div>
+                            15% discount for new partners
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+          </section>
+    
+          <section id="packages" class="pt-2">
+            <h1 class="text-center my-md-5">Our works</h1>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card shadow-sm">
+                    <img src="somepics/happy-financial-consultant-greeting-his-clients-while-meeting-them-their-home-me-are-shaking-hands.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Gain our partnership to be amoung 2000 of our secured clients</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card shadow-sm">
+                    <img src="somepics/pexels-werner-pfennig-6950215.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">hire us to protect you from outside the country also insides.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card shadow-sm">
+                    <img src="somepics/security-guard-6835766.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text"> Get fire arms froom us for your safety and better guarantee and waranty.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+          
+          </section>
+    
+            <section id="faq" class="py-md-5">
+              <h2 class="my-5 text-center">FAQ</h2>
+              <div class="container">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>where are your heasdquaters exactly?</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>we are found in Dare es salaam Tanzania where  exactly our headquaters are located but we have our branche in alot of country in africa and every continent in the world</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>How can i get a bodyguard?</strong>  
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>you can get our bodyguards through filling your infos in our form and required payment</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>
+                        How can i get gun?
+    
+                        </strong> 
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>First you need lisence from your country's government to own weapon the you will filll required form from our site</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+             
+    
+            </section>
+            <div class="modal fade   " tabindex="-1"  id="totheshops">
+              <div class="modal-dialog" >
+                <div class="modal-content ">
+                  <div class="modal-header">
+                    <h1 class="modal-title">You are taking path to our shops..</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+            
+                  <div class="modal-body p-5 pt-0">
+                    <form action="getsome.php" mothod="POST" class="">
+                      <div class="row ">
+                          <div class="col-sm">
+                              <div class="form-floating mt-3 mb-2">
+                                  <input name="agein" type="number" class="form-control rounded-3" id="floatingInput" placeholder="Enter your age to confirm">
+                                  <label for="floatingInput">Age</label>
+                                </div>
+                                <div class="form-floating mt-3 mb-3">
+                                  <input type="email" class="form-control rounded-3" name="email" id="floatingemail" placeholder="Email" required>
+                                  <label for="floatingemail">Email</label>
+                             </div>
+                          <button name="age" class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Continue..</button>
+                            <small class="text-body-secondary">By clicking Continue, you agree to the terms of use.</small>
+                      </div>
+                      
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">@2024 nelly's guards, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+  <script src="bootstrap.bundle.min.js"></script>  
+</body>
+</html>

@@ -1,0 +1,30 @@
+.c-item{
+    height:480px;
+
+}
+.c-img{
+    height:100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.overview{
+    height:180px;
+    background-color:lightsalmon;
+    
+}
+#message{
+    width:100px;
+    height:50px;
+    background-color:green;
+    color:white;
+    padding-top:25px;
+    padding-left:10px;
+}
+#error{
+    width:100px;
+    height:50px;
+    background-color:red;
+    color:white;
+    padding-top:25px;
+    padding-left:10px;
+}
